@@ -50,6 +50,10 @@ body{
         font-size: 18px !important;
         margin-top: 10px;
     }
+
+    #news{
+        margin: 0 !important;
+    }
 }
 
 .nav-tabs .nav-link.active {
@@ -72,16 +76,16 @@ body{
 }
 
 .logo-carousel-slide {
-    min-width: 33.33%; /* Show 3 logos at a time */
+    min-width: 33.33%; 
     box-sizing: border-box;
     padding: 10px;
     display: flex;
-    justify-content: center; /* Center logos */
+    justify-content: center; 
 }
 
 .logo-carousel-slide img {
-    max-width: 70%; /* Set the maximum width to 70% of the slide */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 70%; 
+    height: auto; 
 }
 
 .logo-carousel-button {
@@ -106,18 +110,22 @@ body{
 /* Responsive Styles */
 @media (max-width: 768px) {
     .logo-carousel-slide {
-        min-width: 100%; /* Show 1 logo at a time */
+        min-width: 100%; 
     }
     .logo-carousel-slide img {
-        max-width: 50%; /* Smaller size for mobile */
+        max-width: 50%; 
     }
 }
 
 .nav-link.active {
-    border-bottom: 2px solid orange !important; /* Set the underline color */
-    color: black !important; /* Ensure the text color remains black */
+    border-bottom: 2px solid orange !important; 
+    color: black !important; 
 }
 
 .project-item:hover .project-title {
-    opacity: 1 !important; /* Show title on hover */
+    opacity: 1 !important; 
+  }
+
+  .text-primaryi{
+    color: orange !important;
   }
