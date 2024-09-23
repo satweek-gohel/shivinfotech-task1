@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family:'poppins', sans-serif;
+}
+
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    .navbar-brand {
+        font-size: 18px;
+    }
+
+    .nav-link {
+        font-size: 14px;
+    }
+
+    .container-fluid {
+        padding: 0 10px;
+    }
+
+    .socials{
+        display: none;
+    }
+
+    #topbar span{
+        font-size: 12px;
+    }
+
+    #gaq1{
+        font-size: 12px !important;
+    }
+    #gaq2{
+        font-size: 8px !important;
+    }
+
+    #gaq3{
+        font-size: 8px !important;
+    }
+
+    #top5{
+        font-size: 18px !important;
+        margin-top: 10px;
+    }
+}
+
+.nav-tabs .nav-link.active {
+    border-bottom: 2px solid orange;
+  }
+
+  .project-item:hover .project-title {
+    opacity: 1;
+  }
+
+  .logo-carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.logo-carousel-track {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.logo-carousel-slide {
+    min-width: 33.33%; /* Show 3 logos at a time */
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    justify-content: center; /* Center logos */
+}
+
+.logo-carousel-slide img {
+    max-width: 70%; /* Set the maximum width to 70% of the slide */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.logo-carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .logo-carousel-slide {
+        min-width: 100%; /* Show 1 logo at a time */
+    }
+    .logo-carousel-slide img {
+        max-width: 50%; /* Smaller size for mobile */
+    }
+}
+
+.nav-link.active {
+    border-bottom: 2px solid orange !important; /* Set the underline color */
+    color: black !important; /* Ensure the text color remains black */
+}
