@@ -117,3 +117,7 @@ body{
     border-bottom: 2px solid orange !important; /* Set the underline color */
     color: black !important; /* Ensure the text color remains black */
 }
+
+.project-item:hover .project-title {
+    opacity: 1 !important; /* Show title on hover */
+  }
